@@ -2,10 +2,6 @@
 #include <cassert>
 using namespace std;
 
-/// <summary>
-/// Функция <c> cycle </c> возводит число в квадрат и выводит его
-/// </summary>
-/// <param name="number"></param>
 void cycle(int number)
 {
 	number = number * number;
