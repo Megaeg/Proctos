@@ -5,7 +5,7 @@ using namespace std;
 void cycle(int number)
 {
 	number = number * number;
-	cout << "Ваше число в квадрате: " << number << endl;
+	cout << "(наше?) Ваше число в квадрате: " << number << endl;
 }
 
 int main()
