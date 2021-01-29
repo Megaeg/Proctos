@@ -1,0 +1,36 @@
+#include <iostream>
+#include <cassert>
+using namespace std;
+
+/// <summary>
+/// Функция <c> cycle </c> возводит число в квадрат и выводит его
+/// </summary>
+/// <param name="number"></param>
+void cycle(int number)
+{
+	number = number * number;
+	cout << "Ваше число в квадрате: " << number << endl;
+}
+
+int main()
+{
+	setlocale(LC_CTYPE, "Russian");
+
+	int number = 0;
+
+	int i = 1;
+
+	while (i == 1)
+	{
+		cout << "Введите число, которое хотите возвести в квадрат: "; cin >> number;
+
+		cycle(number);
+
+		cout << "Хотите попробовать еще? (1-да, 2-нет) \n"; cin >> i;
+	}
+
+	puts("Досвидание!");
+
+	return 0;
+
+}
